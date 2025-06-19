@@ -104,5 +104,7 @@
 			add_owned_country = c:BIC #links the country to this company
 		}
 
+
+		activate_law = law_type:law_legacy_slavery
 	}
 }

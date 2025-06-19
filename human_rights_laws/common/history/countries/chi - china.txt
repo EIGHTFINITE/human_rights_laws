@@ -31,5 +31,7 @@
 			level = no_tariffs_or_subventions
 		}
 		add_journal_entry = { type = je_warlord_china }
+
+		activate_law = law_type:law_legacy_slavery
 	}
 }
