@@ -9,7 +9,10 @@
 		add_taxed_goods = g:wine
 		add_taxed_goods = g:liquor
 		
-		set_tariffs_import_priority = g:engines
+		set_import_tariff_level = { 
+			goods = g:engines
+			level = low_subventions
+		}
 		
 		# Laws
 		activate_law = law_type:law_monarchy
@@ -83,7 +86,5 @@
 			set_company_establishment_date = 1746.1.1
 			set_company_state_region = s:STATE_ALSACE_LORRAINE
 		}
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }
