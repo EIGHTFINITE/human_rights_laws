@@ -5,9 +5,8 @@
 
 	progressiveness = 25
 
-	unlocking_laws = {
-		law_slavery_banned
-		law_debt_slavery
+	disallowing_laws = {
+		law_slave_trade
 	}
 
 	on_enact = {
@@ -87,6 +86,7 @@ law_multicultural = {
 
 	disallowing_laws = {
 		law_slave_trade
+		law_legacy_slavery
 	}
 
 	unlocking_technologies = {
