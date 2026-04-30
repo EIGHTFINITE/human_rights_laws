@@ -5,5 +5,5 @@
  ideology_pro_slavery_desc:0 "#lore This group believes human rights will undermine the functioning of our society.#!"
  lawgroup_slavery:0 "$human_rights$"
  law_slavery_banned:0 "$human_rights$"
- law_legacy_slavery:0 "Citizen Rights"
- law_legacy_slavery_desc:0 "Citizens may not become another's property but aliens entering the country receive no such protections."
+ law_colonial_slavery:0 "Citizen Rights"
+ law_colonial_slavery_desc:0 "Citizens may not become another's property but aliens entering the country receive no such protections."
