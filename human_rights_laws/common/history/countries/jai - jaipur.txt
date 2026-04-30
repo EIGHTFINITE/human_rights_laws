@@ -5,6 +5,6 @@
 
 		add_modifier = { name = modifier_regency_intelligentsia }
 
-		activate_law = law_type:law_colonial_slavery
+		activate_law = law_type:law_human_rights_laws_citizen_rights
 	}
 }

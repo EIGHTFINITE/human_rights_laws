@@ -8,7 +8,7 @@
 
 		activate_law = law_type:law_oligarchy # Philippolis had a 5-member Raad/legislative council with members determined via ??? means (probably nominated but it's not entirely clear), and the captain had absolute veto powers over it
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_colonial_slavery
+		activate_law = law_type:law_human_rights_laws_citizen_rights
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_state_religion # 1838 law mandated that the Captain and the Raad be prayed for every Sabbath
 		activate_law = law_type:law_local_police # veldkornet system
