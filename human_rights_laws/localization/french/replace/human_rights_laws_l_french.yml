@@ -4,4 +4,3 @@
  lawgroup_slavery:0 "$human_rights$"
  law_slavery_banned:0 "$human_rights$"
  law_colonial_slavery:0 "$lawgroup_citizenship$"
- law_colonial_slavery_desc:0 "$lawgroup_citizenship_desc$"
