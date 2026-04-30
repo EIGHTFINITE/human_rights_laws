@@ -6,6 +6,7 @@
 		
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_latifundias
 
 		add_taxed_goods = g:wine
 		add_taxed_goods = g:liquor
@@ -20,10 +21,8 @@
 			level = high_subventions
 		}		
 		
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
 		}
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }

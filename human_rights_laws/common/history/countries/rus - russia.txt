@@ -4,19 +4,21 @@
 		add_technology_researched = napoleonic_warfare
 		add_technology_researched = stock_exchange
 		add_technology_researched = corporate_charters
+		add_technology_researched = fractional_distillation #beet producer
 		
 		set_tax_level = low # pre-Kankrin reform tax system
 
 		# Laws 
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_hereditary_bureaucrats
 		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_national_supremacy # needed so that e.g. Poles are discriminated against
+		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_professional_navy
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_women_own_property
 		
@@ -29,13 +31,17 @@
 			add_journal_entry = { type = je_caucasian_war }
 		}
 
+		add_modifier = {
+			name = modifier_polish_organic_statute
+			days = stupidly_long_modifier_time
+			is_decaying = yes
+		}
+
 		add_company = company_type:company_russian_american_company
 		company:company_russian_american_company = {
 			set_company_establishment_date = 1799.7.8
 			set_company_state_region = s:STATE_INGRIA
 			add_owned_country = c:ALK
 		}
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }

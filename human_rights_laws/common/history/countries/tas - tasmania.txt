@@ -4,7 +4,7 @@
 		
 		effect_starting_technology_tier_2_tech = yes
 		
-		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_freedom_of_conscience
@@ -15,12 +15,11 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
 		activate_law = law_type:law_homesteading
 
-		ig:ig_armed_forces = {
+		ig:ig_armed_forces ?= {
 			add_ruling_interest_group = yes
 		}
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }

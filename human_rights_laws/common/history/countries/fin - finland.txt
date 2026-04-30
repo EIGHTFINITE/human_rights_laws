@@ -18,10 +18,15 @@
 			level = 2
 		}
 
-		ig:ig_landowners = {
-			add_ruling_interest_group = yes
+		active_law:lawgroup_education_system ?= { # Public Schools
+			add_amendment = {
+				type = amendment_prussian_education
+				sponsor = PREV.ig:ig_armed_forces
+			}
 		}
 
-		activate_law = law_type:law_legacy_slavery
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

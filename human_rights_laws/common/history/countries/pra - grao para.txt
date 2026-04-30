@@ -24,7 +24,5 @@
 		}
 
 		add_journal_entry = { type = ragamuffin_war_minors }
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }

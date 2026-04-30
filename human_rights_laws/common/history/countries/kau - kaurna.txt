@@ -8,8 +8,13 @@
 		activate_law = law_type:law_census_voting # Would actually have been more akin to anarchy but gameplay
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_consumption_based_taxation
 
-		activate_law = law_type:law_legacy_slavery
+		ig:ig_landowners ?= { # Chosen for gameplay purposes
+			add_ruling_interest_group = yes
+		}
 	}
 }

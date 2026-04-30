@@ -22,7 +22,14 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_censorship
+		activate_law = law_type:law_combination_acts
 
+		active_law:lawgroup_education_system ?= { # Public Schools
+			add_amendment = {
+				type = amendment_prussian_education
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
 		
 		set_institution_investment_level = {
 			institution = institution_schools
@@ -34,11 +41,11 @@
 			level = 1
 		}
 		
-		ig:ig_landowners = { 
+		ig:ig_landowners ?= { 
 			add_ruling_interest_group = yes
 		}
 
-		ig:ig_armed_forces = {
+		ig:ig_armed_forces ?= {
 			add_ruling_interest_group = yes
 		}
 
@@ -47,7 +54,5 @@
 			set_company_establishment_date = 1807.1.1
 			set_company_state_region = s:STATE_WESTPHALIA
 		}
-
-		activate_law = law_type:law_legacy_slavery
 	}
 }
