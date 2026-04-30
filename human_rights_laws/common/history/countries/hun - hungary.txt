@@ -38,5 +38,7 @@
 			months = 168
 			state_region = s:STATE_CENTRAL_HUNGARY
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

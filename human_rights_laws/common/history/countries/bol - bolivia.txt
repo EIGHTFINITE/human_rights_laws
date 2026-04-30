@@ -43,5 +43,7 @@
 		set_variable = pbc_member
 		
 		initialise_caciquismo_effect = yes
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

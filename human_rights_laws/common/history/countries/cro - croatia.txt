@@ -33,5 +33,7 @@
 			months = 168
 			state_region = s:STATE_CROATIA
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

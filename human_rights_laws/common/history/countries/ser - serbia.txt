@@ -37,5 +37,7 @@
 				type = je_mon_serb_unity
 			}
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

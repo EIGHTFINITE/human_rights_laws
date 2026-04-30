@@ -50,5 +50,7 @@
 				sponsor = PREV.ig:ig_intelligentsia
 			}
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

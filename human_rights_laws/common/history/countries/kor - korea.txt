@@ -23,5 +23,7 @@
 		}
 
 		add_modifier = { name = modifier_regency_landowners }
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

@@ -37,5 +37,7 @@
 		}
 		
 		add_journal_entry = { type = je_struggle_for_the_highveld }
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

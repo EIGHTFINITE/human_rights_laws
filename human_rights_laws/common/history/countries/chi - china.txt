@@ -32,5 +32,7 @@
 		}
 		add_journal_entry = { type = je_warlord_china }
 		set_variable = ryukyu_rival_member
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

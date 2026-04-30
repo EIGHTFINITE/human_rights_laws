@@ -88,6 +88,8 @@
 				}
 			}
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }
 

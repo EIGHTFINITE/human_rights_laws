@@ -19,5 +19,7 @@
 		}
 
 		set_variable = { name = ionian_islands_requirement_var value = 0 } # for je_greek_nationalism
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }

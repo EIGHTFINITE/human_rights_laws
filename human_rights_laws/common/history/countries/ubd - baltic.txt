@@ -47,5 +47,7 @@
 			}
 			retire_character = yes
 		}
+
+		activate_law = law_type:law_colonial_slavery
 	}
 }
