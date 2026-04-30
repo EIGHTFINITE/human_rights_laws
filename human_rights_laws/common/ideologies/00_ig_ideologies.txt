@@ -935,7 +935,7 @@ ideology_pro_slavery_colonial = {
 	lawgroup_slavery = {
 		law_slave_trade = disapprove
 		law_debt_slavery = neutral
-		law_legacy_slavery = neutral
+		law_legacy_slavery = approve
 		law_colonial_slavery = approve
 		law_slavery_banned = strongly_disapprove
 	}
