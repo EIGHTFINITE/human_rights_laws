@@ -3,4 +3,5 @@
  ideology_pro_slavery:0 "$human_rights$ Karşıtı"
  lawgroup_slavery:0 "$human_rights$"
  law_slavery_banned:0 "$human_rights$"
- law_colonial_slavery:0 "$lawgroup_citizenship$"
+ law_human_rights_laws_citizen_rights:0 "$lawgroup_citizenship$"
+ law_human_rights_laws_citizen_rights_desc:0 "$law_colonial_slavery_desc$"

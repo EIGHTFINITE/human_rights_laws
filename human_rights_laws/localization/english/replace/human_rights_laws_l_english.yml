@@ -6,5 +6,5 @@
  ideology_pro_slavery_colonial_desc:0 "#lore This group views the people of foreign cultures as their lessers.#!"
  lawgroup_slavery:0 "$human_rights$"
  law_slavery_banned:0 "$human_rights$"
- law_colonial_slavery:0 "Citizen Rights"
- law_colonial_slavery_desc:0 "Citizens may not become another's property but such protections do not extend to colonies."
+ law_human_rights_laws_citizen_rights:0 "Citizen Rights"
+ law_human_rights_laws_citizen_rights_desc:0 "Citizens may not become another's property but such protections do not extend to the fringes of the country. Local laws decide the fate of foreign cultures in colonies instead."
