@@ -1,4 +1,4 @@
-﻿slave_exploitation_sugar = {
+﻿REPLACE:slave_exploitation_sugar = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -9,6 +9,7 @@
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -28,7 +29,7 @@
 	}
 }
 
-slave_exploitation_coffee = {
+REPLACE:slave_exploitation_coffee = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -39,6 +40,7 @@ slave_exploitation_coffee = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -56,7 +58,7 @@ slave_exploitation_coffee = {
 	}
 }
 
-slave_exploitation_cotton = {
+REPLACE:slave_exploitation_cotton = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -67,6 +69,7 @@ slave_exploitation_cotton = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -84,7 +87,7 @@ slave_exploitation_cotton = {
 	}
 }
 
-slave_exploitation_dye = {
+REPLACE:slave_exploitation_dye = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -95,6 +98,7 @@ slave_exploitation_dye = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -112,7 +116,7 @@ slave_exploitation_dye = {
 	}
 }
 
-slave_exploitation_banana = {
+REPLACE:slave_exploitation_banana = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -123,6 +127,7 @@ slave_exploitation_banana = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -140,7 +145,7 @@ slave_exploitation_banana = {
 	}
 }
 
-slave_exploitation_tea = {
+REPLACE:slave_exploitation_tea = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -151,6 +156,7 @@ slave_exploitation_tea = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
@@ -167,7 +173,7 @@ slave_exploitation_tea = {
 	}
 }
 
-slave_exploitation_rubber = {
+REPLACE:slave_exploitation_rubber = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
@@ -178,6 +184,7 @@ slave_exploitation_rubber = {
 	disallowing_laws = {
 		law_slavery_banned
 		law_colonial_slavery
+		law_human_rights_laws_citizen_rights
 		law_debt_slavery ## So India uses other category
 	}
 
