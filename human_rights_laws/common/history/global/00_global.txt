@@ -5,13 +5,16 @@ GLOBAL = {
 	add_contextless_journal_entry = je_the_first_carlist_war
 
 	every_country = {
-		limit = { NOT = { has_law_or_variant = law_type:law_slavery_banned } }
 		if = {
 			limit = {
-				OR = {
-					has_law = law_type:law_human_rights_laws_citizen_rights
-					has_law_or_variant = law_type:law_colonial_slavery
-				}
+				has_law_or_variant = law_type:law_slavery_banned
+			}
+			activate_law = law_type:law_human_rights_laws_citizen_rights
+			ig:ig_landowners ?= { add_ideology = ideology_pro_slavery_colonial }
+		}
+		else_if = {
+			limit = {
+				has_law_or_variant = law_type:law_colonial_slavery
 			}
 			ig:ig_landowners ?= { add_ideology = ideology_pro_slavery_colonial }
 		}
